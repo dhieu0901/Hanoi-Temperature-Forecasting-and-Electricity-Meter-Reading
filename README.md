@@ -4,7 +4,7 @@ Final project for Deep Learning at the National Economics University (NEU), inst
 
 Group 9: Triệu Hải Đăng Trình, Trương Hoàng Tùng, Nguyễn Đại Quân, Nguyễn Dương Hiếu.
 
-Following the lecturer's instruction of 18 November 2026, the project covers **Task 2** and **Task 3** of the final project requirements (Task 1 was removed for all groups). Everything is built with TensorFlow/Keras and the methods of the course (LSTM, encoder-decoder, attention, CNN):
+Everything on this project is built with TensorFlow/Keras and the methods of the course (LSTM, encoder-decoder, attention, CNN):
 
 - **Task 2** - forecast the air temperature in Hanoi for the **next 5 hours** (t+1 ... t+5) with an encoder-decoder LSTM + attention.
 - **Task 3** - read the 5-digit value of an **electricity meter** from a photo with a CNN encoder + LSTM decoder + attention.
