@@ -1,0 +1,32 @@
+# course materials and the written report (handed in separately)
+/slides/
+/PDF Lectures/
+/report/
+/final/
+/docs/
+*.docx
+*.pdf
+
+# downloaded datasets that may not be shared (UFPR-AMR is for academic use only)
+/data/raw/
+# figures that show UFPR-AMR images: allowed in the report and slides, not to be republished in a public repository
+/figures/meter/samples_*
+
+# trained models and training logs (too large, made by the model notebooks)
+/models/
+/logs/
+*.keras
+*.h5
+
+# python
+/.venv/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# os / editor
+.DS_Store
+Thumbs.db
+desktop.ini
+~$*
+.vscode/

@@ -1,0 +1,11 @@
+# Python 3.10-3.12 (TensorFlow has no wheels for Python 3.14).
+# Versions of the Anaconda environment in which all notebooks were run.
+tensorflow==2.20.0
+keras==3.11.1
+numpy==2.4.4
+pandas==3.0.2
+scikit-learn==1.7.2
+matplotlib==3.10.8
+pillow==10.4.0
+# to run the notebooks in VS Code or Jupyter
+ipykernel==6.29.5

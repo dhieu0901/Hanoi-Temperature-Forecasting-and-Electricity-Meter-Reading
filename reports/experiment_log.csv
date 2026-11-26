@@ -1,0 +1,7 @@
+run,task,attention,units,batch_size,learning_rate,max_epochs,epochs_trained,best_epoch,best_val_loss,train_minutes,params,encoder
+seq2seq_lstm,task2_forecast,none,64,128,0.001,40,40,40,0.000692,17.5,54081,
+seq2seq_lstm_dot_attention,task2_forecast,dot,64,128,0.001,40,40,40,0.000697,30.7,56129,
+seq2seq_lstm_additive_attention,task2_forecast,additive,64,128,0.001,40,40,40,0.000682,27.3,56193,
+meter_scratch_cnn_lstm_attention,task3_meter,dot,,,,30,30,30,2.056146,18.9,2115306,scratch CNN
+meter_mobilenet_lstm,task3_meter,none,,,,40 + 150,40 + 73,58,0.773791,29.4,1733962,MobileNetV2 (ImageNet)
+meter_mobilenet_lstm_attention,task3_meter,dot,,,,40 + 150,40 + 105,90,0.22825,33.7,1766730,MobileNetV2 (ImageNet)

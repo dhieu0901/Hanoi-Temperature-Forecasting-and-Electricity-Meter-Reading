@@ -1,0 +1,29 @@
+model,horizon,R2,NSE,MAE,RMSE
+Persistence,t+1,0.9717,0.9715,0.6398,0.8865
+Persistence,t+2,0.9128,0.9108,1.1785,1.5668
+Persistence,t+3,0.8372,0.83,1.6716,2.1638
+Persistence,t+4,0.753,0.7355,2.127,2.6989
+Persistence,t+5,0.6681,0.6348,2.538,3.1711
+Persistence,mean of steps,0.8286,0.8165,1.631,2.0974
+Persistence,all steps,0.8249,0.8165,1.631,2.2478
+Seq2Seq (no attention),t+1,0.988,0.9879,0.391,0.5761
+Seq2Seq (no attention),t+2,0.9768,0.9767,0.5606,0.8006
+Seq2Seq (no attention),t+3,0.9682,0.9681,0.6705,0.9366
+Seq2Seq (no attention),t+4,0.961,0.9609,0.7587,1.0373
+Seq2Seq (no attention),t+5,0.9549,0.9547,0.8258,1.1166
+Seq2Seq (no attention),mean of steps,0.9698,0.9697,0.6413,0.8934
+Seq2Seq (no attention),all steps,0.9698,0.9697,0.6413,0.9135
+Seq2Seq + dot attention,t+1,0.9873,0.9873,0.4106,0.5919
+Seq2Seq + dot attention,t+2,0.9763,0.9763,0.574,0.8082
+Seq2Seq + dot attention,t+3,0.9676,0.9676,0.6817,0.9449
+Seq2Seq + dot attention,t+4,0.9606,0.9605,0.7644,1.043
+Seq2Seq + dot attention,t+5,0.9546,0.9544,0.8299,1.1201
+Seq2Seq + dot attention,mean of steps,0.9693,0.9692,0.6521,0.9016
+Seq2Seq + dot attention,all steps,0.9693,0.9692,0.6521,0.9207
+Seq2Seq + additive attention,t+1,0.987,0.987,0.4165,0.5991
+Seq2Seq + additive attention,t+2,0.9765,0.9765,0.5719,0.8048
+Seq2Seq + additive attention,t+3,0.9683,0.9682,0.677,0.9352
+Seq2Seq + additive attention,t+4,0.9614,0.9612,0.757,1.0331
+Seq2Seq + additive attention,t+5,0.9552,0.9551,0.8195,1.1121
+Seq2Seq + additive attention,mean of steps,0.9697,0.9696,0.6484,0.8969
+Seq2Seq + additive attention,all steps,0.9697,0.9696,0.6484,0.9149

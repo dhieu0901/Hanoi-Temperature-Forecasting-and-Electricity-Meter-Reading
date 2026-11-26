@@ -1,0 +1,4 @@
+model,digit_accuracy,reading_accuracy,R2,NSE,MAE,RMSE,wrong readings
+scratch CNN + LSTM + attention,0.2775,0.0075,0.0641,-0.0463,9926.9425,17620.8528,794
+MobileNetV2 + LSTM (no attention),0.7685,0.2962,0.5039,0.4771,3575.7388,12456.4124,563
+MobileNetV2 + LSTM + attention,0.9428,0.7988,0.8412,0.8312,1152.2162,7078.0397,161
